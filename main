@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hevy - Workout Tracker & Planner</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header, .footer { background: #333; color: white; text-align: center; padding: 1em 0; }
+        .main { padding: 20px; }
+        .section { padding: 20px 0; }
+        .section h2 { color: #333; }
+        .app-links { text-align: center; margin: 20px 0; }
+        .app-links a { margin: 0 10px; display: inline-block; }
+        .features { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .feature { width: 30%; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hevy</h1>
+        <p>Workout Tracker & Planner Gym App</p>
+        <div>
+            <a href="#download">Download</a> | 
+            <a href="#features">Features</a> | 
+            <a href="#community">Community</a> | 
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="main">
+        <div id="download" class="section">
+            <h2>Get the app for free</h2>
+            <div class="app-links">
+                <a href="https://hevyapp.app.link">App Store</a>
+                <a href="https://hevyapp.app.link">Google Play</a>
+            </div>
+        </div>
+        <div id="features" class="section">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Log Workouts</h3>
+                    <ul>
+                        <li>Intuitive Workout Logging</li>
+                        <li>Advanced Routine Planner</li>
+                        <li>Automatic Rest Timers</li>
+                    </ul>
+                </div>
+                <div class="feature">
+                    <h3>Measure Progress</h3>
+                    <ul>
+                        <li>Advanced Exercise Charts</li>
+                        <li>Personal Records</li>
+                        <li>One Rep Max Calculator</li>
+                    </ul>
+                </div>
+                <div class="feature">
+                    <h3>Community</h3>
+                    <ul>
+                        <li>Follow Other Athletes</li>
+                        <li>Like and Comment on Workouts</li>
+                        <li>Save Athlete's Routines</li>
+                    </ul>
+                </div>
+                <div class="feature">
+                    <h3>Apple Watch App</h3>
+                    <ul>
+                        <li>Sync App Routines</li>
+                        <li>Workout Offline</li>
+                    </ul>
+                </div>
+                <div class="feature">
+                    <h3>Desktop Version</h3>
+                    <ul>
+                        <li>Plan Routines on a Big Screen</li>
+                        <li>Analyze Exercise Progress</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="community" class="section">
+            <h2>Join the Community</h2>
+            <p>Follow and compete with other athletes to stay motivated.</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Need help? Check out our short tutorials, and if you still have any questions feel free to get in touch!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2022 Hevy Studios, S.L. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms & Conditions</a>
+        </p>
+    </div>
+</body>
+</html>
